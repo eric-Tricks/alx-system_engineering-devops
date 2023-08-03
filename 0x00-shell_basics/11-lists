@@ -1,0 +1,2 @@
+#!/bin/bash
+find "$(pwd -P)"/{..,/boot} -maxdepth 1 -name ".*" -o -printf "%y %M %n %u %g %s %TF %TF %p\n"
