@@ -1,0 +1,2 @@
+#!/bin/bash
+n {a..z}; do for d in {a..z}; do [ "$c$d" != "oo" ] && echo "$c$d"; done; done
